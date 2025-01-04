@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form_input {
+    @apply rounded-md bg-gray-500 p-2 text-white placeholder-white w-[300px] md:w-[350px];
+}
