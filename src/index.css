@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .form_input {
-    @apply rounded-md bg-gray-500 p-2 text-white placeholder-white w-[300px] md:w-[350px];
+    @apply rounded-md bg-gray-700 p-2 text-white placeholder-white w-[300px] md:w-[350px] focus:outline-none;
 }

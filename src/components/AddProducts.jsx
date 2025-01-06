@@ -149,7 +149,7 @@ const AddProducts = ({ setRefresh }) => {
 
                 />
                 {error.description && <span className="text-red-500">{error.description}</span>}
-                <button className="bg-blue-600 text-white w-full p-2 rounded-md font-semibold text-xl" onClick={handleSubmit}>
+                <button className="bg-blue-600 hover:bg-blue-400 text-white w-full p-2 rounded-md font-semibold text-xl" onClick={handleSubmit}>
                     Create
                 </button>
 
